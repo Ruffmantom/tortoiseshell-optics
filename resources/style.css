@@ -82,3 +82,47 @@ header{
   width: 3.5rem;
 }
 /* --------------about us -----------*/
+.about-us{
+  display: flex;
+  justify-content: space-around;
+}
+.APPOINTMENTS h1{
+  background-color: cadetblue;
+  width: 10rem;
+  color: white;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.PHILOSOPHY h1{
+  background-color: cadetblue;
+  width: 10rem;
+  color: white;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.PHILOSOPHY, .APPOINTMENTS{
+  width: 35%;
+  font-family: Helvetica;
+  margin: 0 2.5%;
+}
+/*footer*/
+.footer-img{
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+
+}
+footer{
+  display: flex;
+  background-color: azure;
+  font-family: Helvetica;
+  margin-top: 5rem;
+}
+.copyright{
+  margin: auto 0;
+}
