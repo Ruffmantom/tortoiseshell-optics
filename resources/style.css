@@ -59,3 +59,26 @@ header{
   color: Black;
 }
 /* -------------middle section services---------------*/
+
+.mid-section{
+  display: flex;
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica;
+}
+.image-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 5rem;
+  align-items: center;
+  text-align: center;
+  margin: 0 3rem 0 3rem;
+}
+.image-box, img{
+  width: 3.5rem;
+}
+/* --------------about us -----------*/
