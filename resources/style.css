@@ -33,12 +33,16 @@ header{
   height: 1.5rem;
   padding:0 1rem 0 2rem;
 }
-.nav span{
+.nav ul{
+  display: flex;
   padding-right: 2rem;
 }
-.nav{
+.nav li{
   align-items: center;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 2rem 1rem 0;
+}
+.mobile-nav li{
+  display: none;
 }
 .navigation{
   justify-content: flex-end;
@@ -125,4 +129,94 @@ footer{
 }
 .copyright{
   margin: auto 0;
+}
+/*media sizes*/
+@media only screen and (max-width: 960px) {
+  .container{
+    width: 100%;
+  }
+  .mobile-nav{
+    display: none;
+  }
+  .headline{
+    background-color: white;
+    margin-top: 5rem;
+    margin-left: 30%;
+    margin-right: 2rem;
+    position: relative;
+  }
+  .headline h1 {
+    font-size: 1.33rem;
+    line-height: 1.2;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 0.75rem 4rem 0.75rem 4rem;
+    color: Black;
+  }
+  .main-banner-image{
+    height: 22rem;
+  }
+}
+@media only screen and (max-width:655px) {
+  .headline{
+    margin-top: 9rem;
+    width: auto;
+  }
+
+  .main-banner-image{
+    height: 17rem;
+    background-position: 20%;
+  }
+  .headline h1{
+    padding:1rem 0rem;
+    margin: 0 auto;
+  
+  }
+  .nav{
+    display: none;
+  }
+  .mobile-nav.nav{
+    display: block;
+  }
+  /*mid section*/
+  .mid-section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-us{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3.77rem;
+    font-size: 0.77rem;
+  }
+  .PHILOSOPHY h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    width: auto;
+  }
+  .APPOINTMENTS h1{
+    text-align: center;
+    margin-top: 4rem;
+    width: auto;
+  }
+  .APPOINTMENTS{
+    margin: 0 auto;
+    width: auto;
+  }
+  .PHILOSOPHY{
+    width: auto;
+    margin: 0 auto;
+  }
+
+  /*footer*/
+  footer .copyright{
+    display: none;
+  }
+  footer .footer-img{
+    align-content: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
 }
