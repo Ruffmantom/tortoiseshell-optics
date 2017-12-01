@@ -159,8 +159,9 @@ footer{
 }
 @media only screen and (max-width:655px) {
   .headline{
-    margin-top: 9rem;
+    margin: 9rem auto 0 auto;
     width: auto;
+    text-align: center;
   }
 
   .main-banner-image{
@@ -169,8 +170,6 @@ footer{
   }
   .headline h1{
     padding:1rem 0rem;
-    margin: 0 auto;
-  
   }
   .nav{
     display: none;
