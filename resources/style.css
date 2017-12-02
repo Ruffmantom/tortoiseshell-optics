@@ -149,6 +149,7 @@ footer{
     margin-left: 30%;
     margin-right: 2rem;
     position: relative;
+    width: auto;
   }
   .headline h1 {
     font-size: 1.33rem;
@@ -165,11 +166,13 @@ footer{
 @media only screen and (max-width:655px) {
   .container{
     width: 100%;
+
   }
   .headline{
     margin: 9rem auto 0 auto;
     width: auto;
     text-align: center;
+
   }
   header{
     padding: 1rem 0;
@@ -182,7 +185,7 @@ footer{
     background-position: 20%;
   }
   .headline h1{
-    padding:1rem 0rem;
+
     font-size: 1rem;
   }
   .nav ul{
@@ -192,12 +195,11 @@ footer{
     display: block;
   }
   /*mid section*/
-  .container.mid{
-    margin: 3.77rem 0;
-  }
+
 
   .mid-section{
     display: block;
+
   }
   .image-box{
     margin: 1.54rem auto;
