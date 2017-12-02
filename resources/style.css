@@ -84,6 +84,9 @@ header{
   margin: 0 3rem 0 3rem;
 }
 .image-box, img{
+  width: 5rem;
+}
+.paper{
   width: 3.5rem;
 }
 /* --------------about us -----------*/
@@ -180,11 +183,12 @@ footer{
   }
   .headline h1{
     padding:1rem 0rem;
+    font-size: 1rem;
   }
-  .nav{
+  .nav ul{
     display: none;
   }
-  .mobile-nav.nav{
+  .mobil-nav{
     display: block;
   }
   /*mid section*/
