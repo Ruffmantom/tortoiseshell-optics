@@ -34,7 +34,7 @@ header{
   width: auto;
   padding:0 1rem 0 2rem;
 }
-.nav ul{
+nav ul{
   display: flex;
   padding-right: 2rem;
 }
@@ -185,13 +185,12 @@ footer{
     background-position: 20%;
   }
   .headline h1{
-
     font-size: 1rem;
   }
-  .nav ul{
+  nav ul{
     display: none;
   }
-  .mobil-nav{
+  nav ul.mobile-nav{
     display: block;
   }
   /*mid section*/
@@ -199,7 +198,7 @@ footer{
 
   .mid-section{
     display: block;
-
+    padding-bottom: 3.77rem;
   }
   .image-box{
     margin: 1.54rem auto;
@@ -214,6 +213,7 @@ footer{
     width: 100%;
     margin-top: 3.77rem;
     font-size: 0.77rem;
+    padding-top: 30%;
   }
   .PHILOSOPHY h1{
     text-align: center;
@@ -250,4 +250,14 @@ footer{
     padding: 4rem 0;
   }
 
+}
+@media only screen and (max-width:600px){
+  .about-us{
+    padding-top:40%;
+  }
+}
+@media only screen and (max-width:416px){
+  .about-us{
+    padding-top:60%;
+  }
 }
