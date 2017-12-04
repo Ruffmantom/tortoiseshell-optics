@@ -42,7 +42,7 @@ nav ul{
   align-items: center;
   padding: 1rem 2rem 1rem 0;
 }
-.mobile-nav li{
+.mobile-nav{
   display:none;
 }
 .navigation{
@@ -163,16 +163,14 @@ footer{
     height: 22rem;
   }
 }
-@media only screen and (max-width:655px) {
+@media only screen and (max-width:670px) {
   .container{
     width: 100%;
-
   }
   .headline{
     margin: 9rem auto 0 auto;
     width: auto;
     text-align: center;
-
   }
   header{
     padding: 1rem 0;
@@ -190,12 +188,12 @@ footer{
   nav ul{
     display: none;
   }
-  nav ul.mobile-nav{
+  .mobile-nav{
     display: block;
+    color: White;
+    padding-right: 2rem;
   }
   /*mid section*/
-
-
   .mid-section{
     display: block;
     padding-bottom: 3.77rem;
@@ -254,6 +252,9 @@ footer{
 @media only screen and (max-width:600px){
   .about-us{
     padding-top:40%;
+  }
+  .headline h1{
+    padding: 1rem 0;
   }
 }
 @media only screen and (max-width:416px){
